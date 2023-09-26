@@ -1,0 +1,22 @@
+/* Write your CSS here */
+/* Write your CSS here */
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #cbd5e1;
+  margin-top: 3px;
+  margin-bottom: 42px;
+}
+.footer-heading {
+  font-family: 'Roboto';
+  font-size: 26px;
+  font-weight: 800;
+  color: #475569;
+}
+@media (min-width: 768px) {
+  .footer-heading {
+    font-size: 34px;
+  }
+}

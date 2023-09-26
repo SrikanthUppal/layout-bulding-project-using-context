@@ -1,0 +1,141 @@
+/* Write your CSS here */
+.body-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+}
+@media (min-width: 768px) {
+  .body-container {
+    flex-direction: row;
+    justify-content: space-between;
+    height: 448px;
+  }
+}
+.left-navbar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 30%;
+  padding: 26px;
+  color: #475569;
+  background-color: #e2e8f0;
+}
+.right-navbar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 30%;
+  padding: 26px;
+  color: #475569;
+  background-color: #e2e8f0;
+}
+@media (min-width: 768px) {
+  .right-navbar-container {
+    height: 100%;
+  }
+}
+.right-navbar-heading {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+.ad-container {
+  display: flex;
+}
+@media (min-width: 768px) {
+  .ad-container {
+    flex-direction: column;
+  }
+}
+.ad-box {
+  border: 1px solid #64748b;
+  padding: 56px;
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin: 6px;
+}
+@media (min-width: 768px) {
+  .ad-box {
+    font-size: 18px;
+  }
+}
+@media (min-width: 768px) {
+  .left-navbar-container {
+    height: 100%;
+    align-items: flex-start;
+    width: 30%;
+    max-width: 266px;
+    padding: 16px;
+  }
+}
+.left-navbar-heading {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+.left-nav-list {
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+@media (min-width: 768px) {
+  .left-nav-list {
+    flex-direction: column;
+  }
+}
+.list-item {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 24px;
+  margin: 10px;
+}
+.show-container {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  flex-grow: 1;
+  height: 30%;
+  padding: 32px;
+  background-color: #f1f5f9;
+  margin-top: 6px;
+  margin-bottom: 3px;
+}
+.content-heading {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 22px;
+  color: #475569;
+  text-align: center;
+  margin-bottom: 0;
+}
+.description {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #64748b;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .show-container {
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  .content-heading {
+    text-align: left;
+  }
+  .description {
+    text-align: left;
+  }
+}
